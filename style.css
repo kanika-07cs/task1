@@ -2,9 +2,10 @@
     background-image: url("hotel.jpg");
     background-size: cover;
     color: aliceblue;
+    font-style: oblique;
     flex-direction: column;
     padding: 20px;
-    height: 80vh;
+    height: 100vh;
 }
 .navbar{
     display: flex;
@@ -55,21 +56,22 @@ h3{
     width: 700px;
     margin: auto;
     box-shadow: 0 5px 5px rgb(71, 93, 239);
+    align-items: center;
+    justify-content: center;
+    
     
 }
 .form-content{
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    background-image: none;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
+    background-image: none;    
 }
 .form-check{
     flex: 1;
 }
 .form label{
+    font-size: 20px;
     display: block;
     padding: 5px;
     margin-bottom: 5px;
@@ -96,11 +98,21 @@ h3{
     color: aliceblue;
     background-color: rgb(54, 244, 95);
 }
+.submit:hover{
+    background-color: rgb(208, 5, 5);
+}
 .about{
     background-image: url("abstract-gradient-blue-orange-panorama-horizontal.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: darkviolet;
-    padding: 0;
-    margin: 0;
+    font-size: 30px;
+    font-style: oblique;
+    height: 50vh;
+    width: 100%;
+}
+.gallery{
+    text-align: center;
 }
 @media (width: 750px){
     .form-content{
