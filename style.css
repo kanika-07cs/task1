@@ -16,7 +16,7 @@
     font-size: 25px;
     font-weight: bold;
     background-image: none;
-    margin-left: 80px;
+    margin-left: 300px;
 }
 .links{
     display: flex;
@@ -32,7 +32,7 @@
     background-image: none;
 }
 h3{
-    font-size: 30px;
+    font-size: 50px;
     margin: 15px;
 }
 .signUp{
@@ -48,6 +48,12 @@ h3{
 .signUp:hover{
     background-color: rgb(76, 76, 238);
 }
+.icons{
+    display: flex;
+    margin: 25px;
+    gap: 10px;
+    font-size: 50px;
+}
 .form{
     background-image: none;
     background-color: cornflowerblue;
@@ -58,8 +64,6 @@ h3{
     box-shadow: 0 5px 5px rgb(71, 93, 239);
     align-items: center;
     justify-content: center;
-    
-    
 }
 .form-content{
     display: flex;
@@ -88,7 +92,7 @@ h3{
 }
 .form button{
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 15px;
     border: none;
     padding: 0 5px;
     margin: 10px;
@@ -113,6 +117,17 @@ h3{
 }
 .gallery{
     text-align: center;
+    padding-top: 20px;
+}
+.gallery img{
+    border-radius: 10px;
+    opacity: 0.80;
+    width: 400px;
+    height: 300px;
+}
+.gallery img:hover{
+    transform: scale(1.05);
+    opacity: 1.00;
 }
 @media (width: 750px){
     .form-content{
