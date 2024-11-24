@@ -139,14 +139,13 @@ h3{
         font-size: 25px;
         font-weight: bold;
         background-image: none;
-        margin-left: 300px;
+        margin-bottom: 10px;
     }
     .links{
         display: flex;
         flex-direction: column;
-        gap: 20px;
-        padding: 0;
-        margin: 0;
+        gap: 15px;
+        text-align: center;
         background-image: none;
     }
     .links a{
@@ -156,7 +155,8 @@ h3{
         background-image: none;
     }
     h3{
-        font-size: 50px;
+        font-size: 30px;
+        text-align: center;
         margin: 15px;
     }
     .signUp{
