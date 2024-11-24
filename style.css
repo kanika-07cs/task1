@@ -129,11 +129,128 @@ h3{
     transform: scale(1.05);
     opacity: 1.00;
 }
-@media (width: 750px){
-    .form-content{
+@media screen and(width: 700px){
+    .navbar{
         flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+    .logo{
+        font-size: 25px;
+        font-weight: bold;
+        background-image: none;
+        margin-left: 300px;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0;
+        margin: 0;
+        background-image: none;
+    }
+    .links a{
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 20px;
+        background-image: none;
+    }
+    h3{
+        font-size: 50px;
+        margin: 15px;
+    }
+    .signUp{
+        padding: 10px;
+        padding-left: 5px;
+        border-radius: 10px;
+        color: aliceblue;
+        background-color: rgb(25, 24, 24);
+        float: right;
+        margin-right: 10px;
+        margin-left: 50px;
+    }
+    .signUp:hover{
+        background-color: rgb(76, 76, 238);
+    }
+    .icons{
+        display: flex;
+        margin: 25px;
+        gap: 10px;
+        font-size: 50px;
+    }
+    .form{
+        background-image: none;
+        background-color: cornflowerblue;
+        padding: 15px;
+        border-radius: 10px;
+        width: 700px;
+        margin: auto;
+        box-shadow: 0 5px 5px rgb(71, 93, 239);
+        align-items: center;
+        justify-content: center;
+    }
+    .form-content{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        background-image: none;    
     }
     .form-check{
-        margin-bottom: 20px;
+        flex: 1;
+    }
+    .form label{
+        font-size: 20px;
+        display: block;
+        padding: 5px;
+        margin-bottom: 5px;
+        background-image: none;
+        background-color: cornflowerblue;
+    }
+    .form input{
+        width: 85%;
+        padding: 10px;
+        border: 2px solid rgb(62, 95, 120);
+        border-radius: 5px;
+        background-image: none;
+        background-color: burlywood;
+    }
+    .form button{
+        cursor: pointer;
+        border-radius: 15px;
+        border: none;
+        padding: 0 5px;
+        margin: 10px;
+        font-size: 25px;
+        font-weight: lighter;
+        background-image: none;
+        color: aliceblue;
+        background-color: rgb(54, 244, 95);
+    }
+    .submit:hover{
+        background-color: rgb(208, 5, 5);
+    }
+    .about{
+        background-image: url("abstract-gradient-blue-orange-panorama-horizontal.avif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: darkviolet;
+        font-size: 30px;
+        font-style: oblique;
+        height: 50vh;
+        width: 100%;
+    }
+    .gallery{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .gallery img{
+        border-radius: 10px;
+        opacity: 0.80;
+        width: 400px;
+        height: 300px;
+    }
+    .gallery img:hover{
+        transform: scale(1.05);
+        opacity: 1.00;
     }
 }
