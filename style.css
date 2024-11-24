@@ -198,6 +198,7 @@ h3{
     .about{
        font-size: 17px;
        text-align: justify;
+       height: 80vh;
     }
     .gallery{
         display: grid;
