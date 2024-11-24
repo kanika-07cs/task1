@@ -130,7 +130,7 @@ h3{
     transform: scale(1.05);
     opacity: 1.00;
 }
-@media screen and(width: 700px){
+@media screen and(min-width: 480px){
     .main{
         padding: 10px;
         height: auto;
