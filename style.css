@@ -130,7 +130,7 @@ h3{
     transform: scale(1.05);
     opacity: 1.00;
 }
-@media screen and (min-width:481px){
+@media screen and (max-width:480px){
     .main{
         padding: 10px;
         height: auto;
@@ -145,7 +145,6 @@ h3{
         margin-left: 5px;
     }
     .links{
-        display: flex;
         flex-direction: column;
         gap: 10px;
         text-align: center;
@@ -165,22 +164,18 @@ h3{
         margin: 7px;
     }
     .icons{
-        display: flex;
-        margin: 25px;
-        gap: 10px;
         justify-content: center;
     }
     .form{
         padding: 10px;
         margin: 10px 0;
+        width: 90%;
     }
     .form-content{
-        display: flex;
         flex-direction: column;
         gap: 10px;   
     }
     .form-check{
-        display: flex;
         flex-direction: column;
     }
     .form label{
