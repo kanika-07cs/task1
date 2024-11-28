@@ -27,7 +27,7 @@
 }
 .links a{
     text-decoration: none;
-    color: aliceblue;
+    color: black;
     font-size: 20px;
     background-image: none;
 }
@@ -39,8 +39,7 @@ h3{
     padding: 10px;
     padding-left: 5px;
     border-radius: 10px;
-    color: aliceblue;
-    background-color: rgb(25, 24, 24);
+    background-color: aliceblue;
     float: right;
     margin-right: 10px;
     margin-left: 50px;
